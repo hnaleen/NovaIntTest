@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans default-autowire="byType"
+	xmlns="http://www.springframework.org/schema/beans" xmlns:ctx="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    classpath:/org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    classpath:org/springframework/context/config/spring-context-3.0.xsd
+    http://www.springframework.org/schema/tx
+    classpath:org/springframework/transaction/config/spring-tx-3.0.xsd
+    http://www.springframework.org/schema/util
+    classpath:org/springframework/beans/factory/xml/spring-util-3.0.xsd">
+
+  <ctx:annotation-config/>
+  <bean id="readOnlyMode" class="java.lang.Boolean" autowire-candidate="false"><constructor-arg value="#{systemProperties['cambio.env.read.only'] == 'true'}" /></bean>
+
+  <bean class="org.springframework.transaction.support.TransactionTemplate" primary="true" />
+
+  <bean id="separate.transaction.template" class="org.springframework.transaction.support.TransactionTemplate">
+    <property name="propagationBehaviorName" value="PROPAGATION_REQUIRES_NEW" />
+  </bean>
+
+  <bean id="separate.read.only.transaction.template" class="org.springframework.transaction.support.TransactionTemplate">
+    <property name="propagationBehaviorName" value="PROPAGATION_REQUIRES_NEW" />
+    <property name="readOnly" value="true" />
+  </bean>
+
+  <tx:annotation-driven transaction-manager="transactionManager" mode="proxy" />
+
+  <bean class="se.cambio.nova.framework.configuration.ServiceConfiguration" />
+
+  <bean id="novaConfiguration" class="se.cambio.nova.impl.EJBServiceConfiguration" />
+  <bean class="se.cambio.nova.impl.ServerConfiguration" />
+  <bean class="se.cambio.nova.impl.DTOConfiguration" />
+
+  <bean class="se.cambio.bedmanagement.impl.EJBServiceConfiguration" />
+  <bean class="se.cambio.bedmanagement.impl.ServerConfiguration" />
+  <bean class="se.cambio.bedmanagement.impl.DTOConfiguration" />
+
+
+  <bean class="se.cambio.nova.apodos.configuration.ServiceConfiguration" />
+  <bean class="se.cambio.nova.eid.configuration.ModuleConfiguration" />
+  <bean class="se.cambio.nova.attentionsignal.configuration.ServiceConfiguration" />
+  <bean class="se.cambio.nova.secrecy.configuration.ServiceConfiguration" />
+  <bean class="se.cambio.nova.cd.configuration.ServiceConfiguration" />
+  <bean class="se.cambio.nova.medication.configuration.ModuleConfiguration" />
+  <bean class="se.cambio.nova.om.configuration.ServiceConfiguration" />
+  <bean class="se.cambio.nova.tm.configuration.ServiceConfiguration" />
+  <bean class="se.cambio.nova.vitalsigns.configuration.ServiceConfiguration" />
+  <bean class="se.cambio.nova.omstella.configuration.ServiceConfiguration" />
+  <bean class="se.cambio.nova.pas.service.configuration.ServiceConfiguration"/>
+  <bean class="se.cambio.referral.impl.DemandForCareSearchCriteriaDTOFactoryConfiguration" />
+  <bean class="se.cambio.nova.referral.configuration.ServiceConfiguration"/>
+ </beans>

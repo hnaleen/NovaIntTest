@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.hibernate:hibernate-envers:5.0.16.Final-redhat-1">
+    <CLASSES>
+      <root url="jar://C:/Software/mvn_repo/org/hibernate/hibernate-envers/5.0.16.Final-redhat-1/hibernate-envers-5.0.16.Final-redhat-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://C:/Software/mvn_repo/org/hibernate/hibernate-envers/5.0.16.Final-redhat-1/hibernate-envers-5.0.16.Final-redhat-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://C:/Software/mvn_repo/org/hibernate/hibernate-envers/5.0.16.Final-redhat-1/hibernate-envers-5.0.16.Final-redhat-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

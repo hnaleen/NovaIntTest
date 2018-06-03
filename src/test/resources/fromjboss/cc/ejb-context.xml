@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans default-autowire="byType"
+ 	xmlns="http://www.springframework.org/schema/beans" xmlns:ctx="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee" xmlns:tx="http://www.springframework.org/schema/tx" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.2.xsd
+    http://www.springframework.org/schema/jee
+    http://www.springframework.org/schema/jee/spring-jee-3.2.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx-3.2.xsd
+    http://www.springframework.org/schema/util
+    http://www.springframework.org/schema/util/spring-util-3.2.xsd">
+    
+	<ctx:annotation-config />
+
+	<bean id="transactionManager" class="org.springframework.transaction.jta.JtaTransactionManager" autowire="byType">
+		<qualifier value="accessLog"/>
+		<property name="transactionManagerName" value="java:jboss/TransactionManager" />
+		<property name="userTransactionName" value="java:jboss/UserTransaction" />
+	</bean>
+	
+	<bean class="org.springframework.transaction.support.TransactionTemplate" />
+
+	<tx:annotation-driven transaction-manager="transactionManager" mode="proxy" />
+
+	<jee:jndi-lookup id="datasource.ix3" jndi-name="java:jboss/datasources/ix3" expected-type="javax.sql.DataSource" />
+	<jee:jndi-lookup id="datasource.ix3.rw" jndi-name="#{systemProperties['cambio.env.read.only'] == 'true' ? 'java:jboss/datasources/ix3-rw' : 'java:jboss/datasources/ix3' }" expected-type="javax.sql.DataSource" />
+
+	<bean class="se.cambio.platform.sdk.server.entity.persistence.hibernate.EntityRepositoryAnnotatedSessionFactoryBean" autowire="no">
+		<property name="dataSource" ref="datasource.ix3" />
+		<property name="hibernateProperties">
+			<value>
+				hibernate.cache.infinispan.cachemanager=java:jboss/infinispan/container/hibernate
+				hibernate.cache.region.factory_class=org.hibernate.cache.infinispan.JndiInfinispanRegionFactory
+				hibernate.cache.use_second_level_cache=true
+				hibernate.cache.use_query_cache=false
+				hibernate.current_session_context_class=se.cambio.platform.sdk.server.entity.persistence.hibernate.ReadWriteJtaSessionContext
+				hibernate.transaction.jta.platform=org.hibernate.service.jta.platform.internal.JBossAppServerJtaPlatform
+				hibernate.transaction.factory_class=org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+			</value>
+		</property>
+	</bean>
+
+	<alias name="accessLogSessionFactory" alias="sessionFactory-rw"/>
+	<bean id="accessLogSessionFactory" class="se.cambio.platform.sdk.server.entity.persistence.hibernate.EntityRepositoryAnnotatedSessionFactoryBean" autowire="no" autowire-candidate="false">
+		<property name="entityRepositories">
+		    <list>
+		    </list>
+		</property>
+		<property name="annotatedClasses">
+		    <list>
+		        <value>se.cambio.platform.cc.patient.impl.PatientImpl</value>
+		        <value>se.cambio.platform.cc.patient.impl.PatientAddressImpl</value>
+		        <value>se.cambio.platform.cc.patient.impl.PatientEmailImpl</value>
+		        <value>se.cambio.platform.cc.patient.impl.PatientPhoneNumberImpl</value>
+		        <value>se.cambio.platform.cc.user.impl.UserImpl</value>
+		        <value>se.cambio.platform.cc.unit.impl.UnitImpl</value>
+		        <value>se.cambio.platform.cc.unit.impl.UnitAddressImpl</value>
+		        <value>se.cambio.platform.cc.unit.impl.UnitEmailImpl</value>
+		        <value>se.cambio.platform.cc.unit.impl.UnitNameImpl</value>
+		        <value>se.cambio.platform.cc.unit.impl.UnitPhoneNumberImpl</value>
+		        <value>se.cambio.platform.cc.user.impl.UserRoleImpl</value>
+		        <value>se.cambio.platform.cc.user.impl.StaffTypeRoleImpl</value>
+		        <value>se.cambio.platform.cc.accesslog.impl.AccessedEntityImpl</value>
+		        <value>se.cambio.platform.cc.accesslog.impl.AccessLogEntryImpl</value>
+		        <value>se.cambio.platform.cc.accesslog.impl.AccessLoggedUnitImpl</value>
+		        <value>se.cambio.platform.cc.accesslog.impl.AccessLoggedUnitRelationNameImpl</value>
+		        <value>se.cambio.platform.cc.accesslog.impl.AccessLogContextImpl</value>
+		        <value>se.cambio.platform.cc.accesslog.impl.DtoDefinitionImpl</value>
+		        <value>se.cambio.platform.cc.accesslog.impl.EntityImpl</value>
+		        <value>se.cambio.platform.cc.accesslog.impl.ViewTitleImpl</value>
+		        <value>se.cambio.platform.cc.printbuffer.impl.ReportTemplateBinaryImpl</value>
+		        <value>se.cambio.platform.cc.printbuffer.impl.ReportTemplateImpl</value>
+		        <value>se.cambio.platform.cc.printbuffer.impl.PrintoutTypeImpl</value>
+		        <value>se.cambio.platform.cc.printbuffer.impl.PrintoutImpl</value>
+		        <value>se.cambio.platform.cc.printbuffer.impl.PrintoutLogImpl</value>
+		        <value>se.cambio.platform.cc.accesslog.impl.DeviceImpl</value>
+				<value>se.cambio.platform.cc.accesslog.impl.InternalTypeImpl</value>
+				<value>se.cambio.platform.cc.accesslog.impl.UnitRelationNameImpl</value>
+				<value>se.cambio.platform.cc.term.impl.TermImpl</value>
+				<value>se.cambio.platform.cc.concept.impl.ConceptImpl</value>
+				<value>se.cambio.platform.cc.hcm.contact.impl.ContactImpl</value>
+				<value>se.cambio.platform.cc.hcm.contact.impl.ContactTypeImpl</value>
+				<value>se.cambio.platform.cc.user.impl.SigningNameImpl</value>
+				<value>se.cambio.platform.cc.accesslog.impl.LogImpl</value>
+				<value>se.cambio.platform.cc.accesslog.impl.LoggedResourceImpl</value>
+				<value>se.cambio.platform.cc.accesslog.impl.LoggedUnitImpl</value>
+				<value>se.cambio.platform.cc.accesslog.impl.LoggedUserUnitImpl</value>
+                <value>se.cambio.platform.cc.printbuffer.impl.PrintoutBatchImpl</value>
+		    </list>
+		</property>
+		<property name="dataSource" ref="datasource.ix3.rw" />
+		<property name="hibernateProperties">
+			<value>
+				hibernate.cache.infinispan.cachemanager=java:jboss/infinispan/container/hibernate
+				hibernate.cache.region.factory_class=org.hibernate.cache.infinispan.JndiInfinispanRegionFactory
+				hibernate.cache.use_second_level_cache=true
+				hibernate.cache.use_query_cache=false
+				hibernate.current_session_context_class=org.hibernate.context.internal.JTASessionContext
+				hibernate.transaction.jta.platform=org.hibernate.service.jta.platform.internal.JBossAppServerJtaPlatform
+				hibernate.transaction.factory_class=org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+			</value>
+		</property>
+	</bean>
+	
+	<bean id="sessionFactoryAccessLogRead" autowire="no" autowire-candidate="false" class="se.cambio.platform.sdk.server.entity.persistence.hibernate.EntityRepositoryAnnotatedSessionFactoryBean">
+		<property name="entityRepositories">
+		    <list>
+		    </list>
+		</property>
+		<property name="annotatedClasses">
+		    <list>
+					<value>se.cambio.platform.cc.patient.impl.PatientImpl</value>
+					<value>se.cambio.platform.cc.patient.impl.PatientAddressImpl</value>
+					<value>se.cambio.platform.cc.patient.impl.PatientEmailImpl</value>
+					<value>se.cambio.platform.cc.patient.impl.PatientPhoneNumberImpl</value>
+					<value>se.cambio.platform.cc.user.impl.UserImpl</value>
+					<value>se.cambio.platform.cc.unit.impl.UnitImpl</value>
+					<value>se.cambio.platform.cc.unit.impl.UnitAddressImpl</value>
+					<value>se.cambio.platform.cc.unit.impl.UnitEmailImpl</value>
+					<value>se.cambio.platform.cc.unit.impl.UnitNameImpl</value>
+					<value>se.cambio.platform.cc.unit.impl.UnitPhoneNumberImpl</value>
+					<value>se.cambio.platform.cc.user.impl.UserRoleImpl</value>
+					<value>se.cambio.platform.cc.user.impl.StaffTypeRoleImpl</value>
+					<value>se.cambio.platform.cc.accesslog.impl.AccessedEntityImpl</value>
+					<value>se.cambio.platform.cc.accesslog.impl.AccessLogEntryImpl</value>
+					<value>se.cambio.platform.cc.accesslog.impl.AccessLoggedUnitImpl</value>
+					<value>se.cambio.platform.cc.accesslog.impl.AccessLoggedUnitRelationNameImpl</value>
+					<value>se.cambio.platform.cc.accesslog.impl.AccessLogContextImpl</value>
+					<value>se.cambio.platform.cc.accesslog.impl.DtoDefinitionImpl</value>
+					<value>se.cambio.platform.cc.accesslog.impl.EntityImpl</value>
+					<value>se.cambio.platform.cc.accesslog.impl.ViewTitleImpl</value>
+					<value>se.cambio.platform.cc.printbuffer.impl.ReportTemplateBinaryImpl</value>
+					<value>se.cambio.platform.cc.printbuffer.impl.ReportTemplateImpl</value>
+					<value>se.cambio.platform.cc.printbuffer.impl.PrintoutTypeImpl</value>
+					<value>se.cambio.platform.cc.printbuffer.impl.PrintoutImpl</value>
+					<value>se.cambio.platform.cc.printbuffer.impl.PrintoutLogImpl</value>
+					<value>se.cambio.platform.cc.accesslog.impl.DeviceImpl</value>
+					<value>se.cambio.platform.cc.accesslog.impl.InternalTypeImpl</value>
+					<value>se.cambio.platform.cc.accesslog.impl.UnitRelationNameImpl</value>
+					<value>se.cambio.platform.cc.term.impl.TermImpl</value>
+					<value>se.cambio.platform.cc.concept.impl.ConceptImpl</value>
+					<value>se.cambio.platform.cc.hcm.contact.impl.ContactImpl</value>
+					<value>se.cambio.platform.cc.hcm.contact.impl.ContactTypeImpl</value>
+					<value>se.cambio.platform.cc.user.impl.SigningNameImpl</value>
+					<value>se.cambio.platform.cc.accesslog.impl.LogImpl</value>
+					<value>se.cambio.platform.cc.accesslog.impl.LoggedResourceImpl</value>
+					<value>se.cambio.platform.cc.accesslog.impl.LoggedUnitImpl</value>
+					<value>se.cambio.platform.cc.accesslog.impl.LoggedUserUnitImpl</value>
+					<value>se.cambio.platform.cc.printbuffer.impl.PrintoutBatchImpl</value>
+		    </list>
+		</property>
+		<property name="hibernateProperties">
+			<value>
+				hibernate.cache.use_second_level_cache=false
+				hibernate.cache.use_query_cache=false
+			</value>
+		</property>		
+		<property name="dataSource" ref="datasource.ix3"/>
+	</bean>
+	
+	<import resource="classpath:fromjboss/cc/se.cambio.platform.cc-cc-ejb-server.xml" />
+</beans>

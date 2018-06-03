@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans default-autowire="byType"
+	xmlns="http://www.springframework.org/schema/beans" xmlns:ctx="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.2.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx-3.2.xsd
+    http://www.springframework.org/schema/util
+    http://www.springframework.org/schema/util/spring-util-3.2.xsd">
+    
+	<ctx:annotation-config/>
+
+	<bean class="se.cambio.platform.cc.context.impl.SessionContextConfiguration" />
+	<bean id="CCEJBConfiguration" class="se.cambio.platform.cc.EJBConfiguration" />
+	<bean class="se.cambio.platform.cc.impl.ServerConfiguration" />
+	<bean class="se.cambio.platform.cc.impl.EJBServiceConfiguration" />
+	<bean class="se.cambio.platform.cc.impl.DTOConfiguration" />
+		
+	<!-- Spiderling -->
+	<bean id="spiderBootstrap" class="se.cambio.platform.cc.spiderling.SpiderBootstrap"
+		lazy-init="false">
+		<property name="classLoaderSource" ref="CCEJBConfiguration"/>
+	</bean>
+
+	<!-- CAF Beans -->
+	<bean id="lookupService"
+		class="se.cambio.platform.cc.spiderling.ContextJndiLookupService"
+		lazy-init="false" autowire="no">
+		<property name="dataSource" ref="datasource.ix3" />
+		<property name="readWriteDataSource" ref="datasource.ix3.rw" />
+	</bean>
+	<bean id="cafConfiguration" class="se.cambio.platform.cc.spiderling.CAFConfiguration" depends-on="lookupService" />
+</beans>

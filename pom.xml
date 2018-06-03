@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.hasa</groupId>
+    <artifactId>NovaIntTest</artifactId>
+    <version>21.815.1-dev-SNAPSHOT</version>
+
+    <parent>
+        <groupId>se.cambio.nova</groupId>
+        <artifactId>nova-activities-reactor</artifactId>
+        <version>21.815.1-dev-SNAPSHOT</version>
+    </parent>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
+
+    <dependencies>
+        <!-- integration testing dependencies -->
+        <dependency>
+            <groupId>se.cambio.test.itf</groupId>
+            <artifactId>itf-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>se.cambio.platform.cc</groupId>
+            <artifactId>cc-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>se.cambio.platform.cc</groupId>-->
+            <!--<artifactId>cc-server-impl</artifactId>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>se.cambio.platform.cc</groupId>-->
+            <!--<artifactId>cc-service-impl</artifactId>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
+        <!-- End -->
+
+        <!-- CC -->
+        <!--<dependency>-->
+            <!--<groupId>se.cambio.platform.cc</groupId>-->
+            <!--<artifactId>cc-service-spi</artifactId>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>se.cambio.platform.cc</groupId>-->
+            <!--<artifactId>cc-dto-impl</artifactId>-->
+        <!--</dependency>-->
+        <!-- End -->
+    </dependencies>
+
+</project>

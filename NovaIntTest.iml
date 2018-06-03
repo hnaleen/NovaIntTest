@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="main" level="project" />
+    <orderEntry type="module-library">
+      <library name="medication-jboss-module">
+        <CLASSES>
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/cosmic/ix3/medication/medication-jboss-module/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/cosmic/ix3/medication/medication-jboss-module/main" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="eprescription-jboss-module">
+        <CLASSES>
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/cosmic/ix3/plugin/eprescription/eprescription-jboss-module/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/cosmic/ix3/plugin/eprescription/eprescription-jboss-module/main" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="unstructuredalert-jboss-module">
+        <CLASSES>
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/cosmic/ix3/unstructuredalert/unstructuredalert-jboss-module/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/cosmic/ix3/unstructuredalert/unstructuredalert-jboss-module/main" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="documentationintegration-jboss-module">
+        <CLASSES>
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/documentationintegration/documentationintegration-jboss-module/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/documentationintegration/documentationintegration-jboss-module/main" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fluidbalance-jboss-module">
+        <CLASSES>
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/fluidbalance/fluidbalance-jboss-module/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/fluidbalance/fluidbalance-jboss-module/main" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ma-se-cc-jboss-module">
+        <CLASSES>
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/marketadaptations/se/cc/ma-se-cc-jboss-module/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/marketadaptations/se/cc/ma-se-cc-jboss-module/main" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="overviewplugins-jboss-module">
+        <CLASSES>
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/overviews/overviewplugins-jboss-module/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/overviews/overviewplugins-jboss-module/main" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="overviews-jboss-module">
+        <CLASSES>
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/overviews/overviews-jboss-module/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/overviews/overviews-jboss-module/main" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sdk-jboss-cuts-module">
+        <CLASSES>
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/platform/sdk/sdk-jboss-cuts-module/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/platform/sdk/sdk-jboss-cuts-module/main" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="referral-jboss-module">
+        <CLASSES>
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/referral/referral-jboss-module/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/referral/referral-jboss-module/main" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="nova-jboss-module-r81">
+        <CLASSES>
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/nova/nova-jboss-module-r81/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/nova/nova-jboss-module-r81/main" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="cc-jboss-module">
+        <CLASSES>
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/platform/cc/cc-jboss-module/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/platform/cc/cc-jboss-module/main" />
+        </SOURCES>
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/platform/cc/cc-jboss-module/main" recursive="false" />
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/platform/cc/cc-jboss-module/main" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="sdk-jboss-module">
+        <CLASSES>
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/platform/sdk/sdk-jboss-module/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/platform/sdk/sdk-jboss-module/main" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="cosmic-ejb.jars content">
+        <CLASSES>
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/standalone/cosmic-ejb.ear" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/standalone/cosmic-ejb.ear" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="membershipintegration-jboss-module">
+        <CLASSES>
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/membershipintegration/membershipintegration-jboss-module/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/membershipintegration/membershipintegration-jboss-module/main" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="infinispan_jboss">
+        <CLASSES>
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/system/layers/base/org/infinispan/main" />
+          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/system/layers/base/org/infinispan/commons/main" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/system/layers/base/org/infinispan/commons/main" recursive="false" />
+        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/system/layers/base/org/infinispan/main" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.test.itf:itf-core:2.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.thoughtworks.xstream:xstream:1.4.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: xmlpull:xmlpull:1.1.3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: xpp3:xpp3_min:1.1.4c" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.platform.cc:cc-test:2.4.4-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.platform.sdk:sdk-test:1.2.3.1.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate:hibernate-testing:5.0.12.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.logging:jboss-logging:3.3.0.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate:hibernate-core:5.0.16.Final-redhat-1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: antlr:antlr:2.7.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jboss:jandex:2.0.0.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: dom4j:dom4j:1.6.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: xml-apis:xml-apis:1.0.b2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.byteman:byteman:2.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.byteman:byteman-install:2.1.2" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: com.sun:tools:1.6">
+        <CLASSES>
+          <root url="jar://D:/Software/jdk1.7.0_79/lib/tools.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.byteman:byteman-bmunit:2.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.byteman:byteman-submit:2.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.experlog:xapool:1.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.jbossts:jbossjta:4.16.4.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-api-mockito:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-module-testng:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-module-testng-common:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-all:1.9.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-core:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: commons-logging:commons-logging:1.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:6.9.10" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.beust:jcommander:1.48" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.beanshell:bsh:2.0b4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.sourceforge.jtds:jtds:1.2.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: commons-dbcp:commons-dbcp:1.2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: commons-pool:commons-pool:1.5.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:jcl-over-slf4j:1.7.23" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:log4j-over-slf4j:1.7.23" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:slf4j-api:1.7.23" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:slf4j-ext:1.7.23" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: ch.qos.cal10n:cal10n-api:0.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: ch.qos.logback:logback-classic:1.1.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: ch.qos.logback:logback-core:1.1.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.platform.cc:cc-spiderling:2.4.4-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-common-jdbc:3.0.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-api-util:3.0.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-common-source-api:3.0.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-common-source-basic:3.0.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-api-common-metadata:3.0.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-runtime-criteria-basic:3.0.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-api-runtime-criteria-api:3.0.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-api-runtime-criteria-util:3.0.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-runtime-criteria-filter:3.0.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-criteria-profiler:3.0.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-runtime-criteria-transport-common:3.0.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider.jboss:cambio-jboss-util:1.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-runtime-criteria-transport-server:3.0.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.codegen.proxy:cambio-codegen-proxy-iiop:2.0.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: regexp:regexp:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.codegen.proxy:cambio-codegen-proxy:1.0.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: bcel:bcel:5.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: concurrent:concurrent:1.3.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-context:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-aop:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-beans:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-expression:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-tx:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-core:ejb:3.0.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-jboss-service:3.0.11" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.platform.cc:cc-server-api:2.4.4-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.platform.cc:cc-common-api:2.4.4-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.platform.sdk:sdk-common:1.2.3.1.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: joda-time:joda-time:2.9.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-orm:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: cglib:cglib:2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: asm:asm:3.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.inject:guice:4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.inject.extensions:guice-multibindings:4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.inject.extensions:guice-assistedinject:4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.inject.extensions:guice-grapher:4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.platform.accesslog:access-log-common-api:0.0.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.platform.sdk:sdk-server:1.2.3.1.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-jdbc:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate:hibernate-envers:5.0.16.Final-redhat-1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate:hibernate-entitymanager:5.0.16.Final-redhat-1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jadira.usertype:usertype.core:5.0.0.GA" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jadira.usertype:usertype.spi:5.0.0.GA" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate:hibernate-infinispan:5.0.16.Final-redhat-1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.infinispan:infinispan-core:5.2.1.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jgroups:jgroups:3.2.7.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.0.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.marshalling:jboss-marshalling-river:1.3.15.GA" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.marshalling:jboss-marshalling:1.3.15.GA" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jboss:staxmapper:1.1.0.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.h2database:h2:1.3.173" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.easytesting:fest-assert:1.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.easytesting:fest-util:1.1.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.easytesting:fest-reflect:1.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.external.deprecated:UnitTest:1.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-api-support:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-reflect:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:2.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-core:1.5.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.external.deprecated:easymock:1.2_Java1.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:2.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.github.marschall:memoryfilesystem:0.6.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-guava:2.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: com.google.guava:guava:20.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-joda-time:1.1.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-db:1.1.1" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-swing-testng:2.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-swing:2.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: javax.el:javax.el-api:2.2.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.spec.javax.ejb:jboss-ejb-api_3.2_spec:1.0.0.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.spec.javax.jms:jboss-jms-api_2.0_spec:1.0.0.Final" level="project" />
+  </component>
+</module>

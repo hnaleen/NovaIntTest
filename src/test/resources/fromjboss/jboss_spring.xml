@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans default-autowire="byType" xmlns="http://www.springframework.org/schema/beans" xmlns:ctx="http://www.springframework.org/schema/context" xmlns:jee="http://www.springframework.org/schema/jee"
+       xmlns:tx="http://www.springframework.org/schema/tx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    classpath:/org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    classpath:org/springframework/context/config/spring-context-3.0.xsd
+    http://www.springframework.org/schema/jee
+    http://www.springframework.org/schema/jee/spring-jee-3.0.xsd
+    http://www.springframework.org/schema/tx
+    classpath:org/springframework/transaction/config/spring-tx-3.0.xsd
+    http://www.springframework.org/schema/util
+    classpath:org/springframework/beans/factory/xml/spring-util-3.0.xsd">
+
+    <bean id="datasource.ix3.rw" class="impl.MockFactory" factory-method="mock" autowire-candidate="false">
+        <constructor-arg value="javax.sql.DataSource"/>
+    </bean>
+
+    <ctx:annotation-config />
+
+    <import resource="classpath:fromjboss/sdk/ejb-context.xml"></import>
+    <!--<import resource="classpath:fromjboss/cc/ejb-context.xml"></import>-->
+    <import resource="classpath:fromjboss/medication/ejb-context.xml"></import>
+    <import resource="classpath:fromjboss/eprescription/ejb-context.xml"></import>
+    <import resource="classpath:fromjboss/marketadaptations/spring-context-market-adaptations.xml"></import>
+    <import resource="classpath:fromjboss/unstructuredalert/ejb-context.xml"></import>
+    <import resource="classpath:fromjboss/overviews/ejb-context.xml"></import>
+    <import resource="classpath:fromjboss/referral/ejb-context.xml"></import>
+    <import resource="classpath:fromjboss/nova/ejb-context.xml"></import>
+
+
+</beans>
