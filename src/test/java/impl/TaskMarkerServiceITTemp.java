@@ -21,7 +21,7 @@ import java.util.List;
 
 @ContextConfiguration("/fromjboss/jboss_spring.xml")
 @TestConfiguration(login = "Himali", userRole = "Doctor*", workingUnit = "The Medicine department*")
-public class TaskMarkerServiceIT extends AbstractTransactionalTestNGSpringContextTests
+public class TaskMarkerServiceITTemp extends AbstractTransactionalTestNGSpringContextTests
 {
     static {
 //        JavaContextFactory.getInstance().activate();

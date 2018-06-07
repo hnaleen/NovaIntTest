@@ -1,31 +1,24 @@
 package impl;
 
-import impl.mockedJNDI.JavaContextFactory;
-import impl.mockedJNDI.SpringFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.annotation.Commit;
 import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.testng.AbstractTransactionalTestNGSpringContextTests;
+import org.testng.Assert;
 import org.testng.annotations.Test;
-import se.cambio.nova.medication.service.MedicationScheduleDataService;
 import se.cambio.nova.model.marker.TaskMarker;
 import se.cambio.nova.model.marker.TaskMarkerIdFactory;
 import se.cambio.nova.model.marker.dto.TaskMarkerDTO;
 import se.cambio.nova.model.marker.dto.TaskMarkerEntityDTOIdFactory;
-import se.cambio.nova.model.marker.dto.impl.TaskMarkerEntityDTOIdFactoryImpl;
-import se.cambio.nova.model.marker.impl.TaskMarkerIdFactoryImpl;
 import se.cambio.nova.model.marker.persistence.TaskMarkerDAO;
 import se.cambio.nova.model.marker.service.TaskMarkerService;
 import se.cambio.platform.cc.hcm.contact.dto.ContactEntityDTOIdFactory;
 import se.cambio.test.itf.core.TestBase;
 import se.cambio.test.itf.core.annotations.TestConfiguration;
 
-import javax.naming.InitialContext;
 import java.util.List;
 
 @ContextConfiguration("/fromjboss/jboss_spring.xml")
 @TestConfiguration(login = "Himali", userRole = "Doctor*", workingUnit = "The Medicine department*")
-public class TaskMarkerServiceIT_with_cc_test extends TestBase
+public class TaskMarkerServiceIT_with_cc_testIT extends TestBase
 {
     static {
         System.setProperty("itf.db.host", "cllk-hasanthaal");

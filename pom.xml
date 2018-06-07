@@ -21,6 +21,65 @@
                 <filtering>true</filtering>
             </resource>
         </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>2.21.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>integration-test</goal>
+                            <goal>verify</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>io.fabric8</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>0.26.0</version>
+                <configuration>
+                    <apiVersion>1.24</apiVersion>
+                    <showLogs>nova/novadb-r82</showLogs>
+                    <images>
+                        <image>
+                            <name>nova/novadb-r82</name>
+                            <alias>novaIntDB</alias>
+                            <run>
+                                <namingStrategy>alias</namingStrategy>
+                                <memory>3221225472</memory> //Atleaset 3gb of memory is needed for cambio DB
+                                <ports>
+                                    <port>15788:1433</port>
+                                </ports>
+                                <wait>
+                                    <time>240000</time>
+                                    <!--<log>VERBOSE: Started SQL Server.</log>-->
+                                </wait>
+                            </run>
+                        </image>
+                    </images>
+                </configuration>
+
+                <executions>
+                    <execution>
+                        <id>start</id>
+                        <phase>pre-integration-test</phase>
+                        <goals>
+                            <goal>start</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>stop</id>
+                        <phase>post-integration-test</phase>
+                        <goals>
+                            <goal>stop</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
     </build>
 
     <dependencies>
@@ -35,6 +94,15 @@
             <artifactId>cc-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>se.cambio.nova</groupId>
+            <artifactId>nova-jboss-module-r81</artifactId>
+            <version>${project.version}</version>
+			 <type>jme</type>
+        </dependency>
+
+
         <!--<dependency>-->
             <!--<groupId>se.cambio.platform.cc</groupId>-->
             <!--<artifactId>cc-server-impl</artifactId>-->

@@ -15,174 +15,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="main" level="project" />
-    <orderEntry type="module-library">
-      <library name="medication-jboss-module">
-        <CLASSES>
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/cosmic/ix3/medication/medication-jboss-module/main" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/cosmic/ix3/medication/medication-jboss-module/main" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="eprescription-jboss-module">
-        <CLASSES>
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/cosmic/ix3/plugin/eprescription/eprescription-jboss-module/main" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/cosmic/ix3/plugin/eprescription/eprescription-jboss-module/main" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="unstructuredalert-jboss-module">
-        <CLASSES>
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/cosmic/ix3/unstructuredalert/unstructuredalert-jboss-module/main" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/cosmic/ix3/unstructuredalert/unstructuredalert-jboss-module/main" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="documentationintegration-jboss-module">
-        <CLASSES>
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/documentationintegration/documentationintegration-jboss-module/main" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/documentationintegration/documentationintegration-jboss-module/main" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="fluidbalance-jboss-module">
-        <CLASSES>
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/fluidbalance/fluidbalance-jboss-module/main" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/fluidbalance/fluidbalance-jboss-module/main" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="ma-se-cc-jboss-module">
-        <CLASSES>
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/marketadaptations/se/cc/ma-se-cc-jboss-module/main" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/marketadaptations/se/cc/ma-se-cc-jboss-module/main" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="overviewplugins-jboss-module">
-        <CLASSES>
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/overviews/overviewplugins-jboss-module/main" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/overviews/overviewplugins-jboss-module/main" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="overviews-jboss-module">
-        <CLASSES>
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/overviews/overviews-jboss-module/main" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/overviews/overviews-jboss-module/main" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="sdk-jboss-cuts-module">
-        <CLASSES>
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/platform/sdk/sdk-jboss-cuts-module/main" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/platform/sdk/sdk-jboss-cuts-module/main" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="referral-jboss-module">
-        <CLASSES>
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/referral/referral-jboss-module/main" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/referral/referral-jboss-module/main" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="nova-jboss-module-r81">
-        <CLASSES>
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/nova/nova-jboss-module-r81/main" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/nova/nova-jboss-module-r81/main" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="cc-jboss-module">
-        <CLASSES>
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/platform/cc/cc-jboss-module/main" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/platform/cc/cc-jboss-module/main" />
-        </SOURCES>
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/platform/cc/cc-jboss-module/main" recursive="false" />
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/platform/cc/cc-jboss-module/main" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="sdk-jboss-module">
-        <CLASSES>
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/platform/sdk/sdk-jboss-module/main" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/platform/sdk/sdk-jboss-module/main" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="cosmic-ejb.jars content">
-        <CLASSES>
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/standalone/cosmic-ejb.ear" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/standalone/cosmic-ejb.ear" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="membershipintegration-jboss-module">
-        <CLASSES>
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/membershipintegration/membershipintegration-jboss-module/main" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/se/cambio/membershipintegration/membershipintegration-jboss-module/main" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="infinispan_jboss">
-        <CLASSES>
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/system/layers/base/org/infinispan/main" />
-          <root url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/system/layers/base/org/infinispan/commons/main" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/system/layers/base/org/infinispan/commons/main" recursive="false" />
-        <jarDirectory url="file://D:/IX3_JBoss/R81_11/instance/21.813.4.7/modules/system/layers/base/org/infinispan/main" recursive="false" />
-      </library>
-    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Maven: se.cambio.test.itf:itf-core:2.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.thoughtworks.xstream:xstream:1.4.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: xmlpull:xmlpull:1.1.3.1" level="project" />
@@ -190,15 +24,15 @@
     <orderEntry type="library" scope="TEST" name="Maven: se.cambio.platform.cc:cc-test:2.4.4-dev-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: se.cambio.platform.sdk:sdk-test:1.2.3.1.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hibernate:hibernate-testing:5.0.12.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.logging:jboss-logging:3.3.0.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate:hibernate-core:5.0.16.Final-redhat-1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: antlr:antlr:2.7.7" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jboss:jandex:2.0.0.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: dom4j:dom4j:1.6.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: xml-apis:xml-apis:1.0.b2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.logging:jboss-logging:3.3.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate:hibernate-core:5.0.16.Final-redhat-1" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss:jandex:2.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: dom4j:dom4j:1.6.1" level="project" />
+    <orderEntry type="library" name="Maven: xml-apis:xml-apis:1.0.b2" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jboss.byteman:byteman:2.1.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jboss.byteman:byteman-install:2.1.2" level="project" />
     <orderEntry type="module-library">
@@ -220,74 +54,74 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-module-testng-common:1.5.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-all:1.9.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:4.3.3.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-core:4.3.3.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: commons-logging:commons-logging:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:6.9.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.beust:jcommander:1.48" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.beanshell:bsh:2.0b4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: net.sourceforge.jtds:jtds:1.2.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: commons-dbcp:commons-dbcp:1.2.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: commons-pool:commons-pool:1.5.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:jcl-over-slf4j:1.7.23" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:log4j-over-slf4j:1.7.23" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:slf4j-api:1.7.23" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.slf4j:slf4j-ext:1.7.23" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: ch.qos.cal10n:cal10n-api:0.8.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: ch.qos.logback:logback-classic:1.1.6" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: ch.qos.logback:logback-core:1.1.6" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.platform.cc:cc-spiderling:2.4.4-dev-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-common-jdbc:3.0.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-api-util:3.0.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-common-source-api:3.0.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-common-source-basic:3.0.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-api-common-metadata:3.0.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-runtime-criteria-basic:3.0.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-api-runtime-criteria-api:3.0.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-api-runtime-criteria-util:3.0.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-runtime-criteria-filter:3.0.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-criteria-profiler:3.0.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-runtime-criteria-transport-common:3.0.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider.jboss:cambio-jboss-util:1.0.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-archiving-runtime-criteria-transport-server:3.0.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.codegen.proxy:cambio-codegen-proxy-iiop:2.0.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: regexp:regexp:1.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.codegen.proxy:cambio-codegen-proxy:1.0.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: bcel:bcel:5.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: concurrent:concurrent:1.3.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-context:4.3.3.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-aop:4.3.3.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-beans:4.3.3.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-expression:4.3.3.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-tx:4.3.3.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-core:ejb:3.0.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.spider:spider-jboss-service:3.0.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.platform.cc:cc-server-api:2.4.4-dev-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.platform.cc:cc-common-api:2.4.4-dev-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.platform.sdk:sdk-common:1.2.3.1.7" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: aopalliance:aopalliance:1.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: joda-time:joda-time:2.9.7" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-orm:4.3.3.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: cglib:cglib:2.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: asm:asm:3.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.google.inject:guice:4.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: javax.inject:javax.inject:1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.google.inject.extensions:guice-multibindings:4.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.google.inject.extensions:guice-assistedinject:4.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.google.inject.extensions:guice-grapher:4.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.platform.accesslog:access-log-common-api:0.0.5-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: se.cambio.platform.sdk:sdk-server:1.2.3.1.7" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-jdbc:4.3.3.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate:hibernate-envers:5.0.16.Final-redhat-1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate:hibernate-entitymanager:5.0.16.Final-redhat-1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jadira.usertype:usertype.core:5.0.0.GA" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jadira.usertype:usertype.spi:5.0.0.GA" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.hibernate:hibernate-infinispan:5.0.16.Final-redhat-1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.infinispan:infinispan-core:5.2.1.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jgroups:jgroups:3.2.7.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.0.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.marshalling:jboss-marshalling-river:1.3.15.GA" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jboss.marshalling:jboss-marshalling:1.3.15.GA" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.jboss:staxmapper:1.1.0.Final" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:jcl-over-slf4j:1.7.23" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:log4j-over-slf4j:1.7.23" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.23" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.slf4j:slf4j-ext:1.7.23" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: ch.qos.cal10n:cal10n-api:0.8.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: ch.qos.logback:logback-classic:1.1.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: ch.qos.logback:logback-core:1.1.6" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.platform.cc:cc-spiderling:2.4.4-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.spider:spider-archiving-common-jdbc:3.0.11" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.spider:spider-archiving-api-util:3.0.11" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.spider:spider-archiving-common-source-api:3.0.11" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.spider:spider-archiving-common-source-basic:3.0.11" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.spider:spider-archiving-api-common-metadata:3.0.11" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.spider:spider-archiving-runtime-criteria-basic:3.0.11" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.spider:spider-archiving-api-runtime-criteria-api:3.0.11" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.spider:spider-archiving-api-runtime-criteria-util:3.0.11" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.spider:spider-archiving-runtime-criteria-filter:3.0.11" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.spider:spider-archiving-criteria-profiler:3.0.11" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.spider:spider-archiving-runtime-criteria-transport-common:3.0.11" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.spider.jboss:cambio-jboss-util:1.0.2" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.spider:spider-archiving-runtime-criteria-transport-server:3.0.11" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.codegen.proxy:cambio-codegen-proxy-iiop:2.0.1" level="project" />
+    <orderEntry type="library" name="Maven: regexp:regexp:1.3" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.codegen.proxy:cambio-codegen-proxy:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: bcel:bcel:5.1" level="project" />
+    <orderEntry type="library" name="Maven: concurrent:concurrent:1.3.4" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.spider:spider-core:ejb:3.0.11" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.spider:spider-jboss-service:3.0.11" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.platform.cc:cc-server-api:2.4.4-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.platform.cc:cc-common-api:2.4.4-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.platform.sdk:sdk-common:1.2.3.1.7" level="project" />
+    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Maven: joda-time:joda-time:2.9.7" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-orm:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: cglib:cglib:2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: asm:asm:3.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.inject:guice:4.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.inject.extensions:guice-multibindings:4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.inject.extensions:guice-assistedinject:4.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.inject.extensions:guice-grapher:4.0" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.platform.accesslog:access-log-common-api:0.0.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.platform.sdk:sdk-server:1.2.3.1.7" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate:hibernate-envers:5.0.16.Final-redhat-1" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate:hibernate-entitymanager:5.0.16.Final-redhat-1" level="project" />
+    <orderEntry type="library" name="Maven: org.jadira.usertype:usertype.core:5.0.0.GA" level="project" />
+    <orderEntry type="library" name="Maven: org.jadira.usertype:usertype.spi:5.0.0.GA" level="project" />
+    <orderEntry type="library" name="Maven: org.hibernate:hibernate-infinispan:5.0.16.Final-redhat-1" level="project" />
+    <orderEntry type="library" name="Maven: org.infinispan:infinispan-core:5.2.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jgroups:jgroups:3.2.7.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.marshalling:jboss-marshalling-river:1.3.15.GA" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.marshalling:jboss-marshalling:1.3.15.GA" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss:staxmapper:1.1.0.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.h2database:h2:1.3.173" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.easytesting:fest-assert:1.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.easytesting:fest-util:1.1.6" level="project" />
@@ -298,12 +132,12 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-reflect:1.5.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.objenesis:objenesis:2.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.powermock:powermock-core:1.5.5" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: se.cambio.external.deprecated:easymock:1.2_Java1.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-core:2.0.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.github.marschall:memoryfilesystem:0.6.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-guava:2.0.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.google.guava:guava:20.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:20.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-joda-time:1.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-db:1.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.assertj:assertj-swing-testng:2.2.0" level="project" />
@@ -311,5 +145,288 @@
     <orderEntry type="library" scope="TEST" name="Maven: javax.el:javax.el-api:2.2.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jboss.spec.javax.ejb:jboss-ejb-api_3.2_spec:1.0.0.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jboss.spec.javax.jms:jboss-jms-api_2.0_spec:1.0.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cuts:cambio-cuts-jboss-server:1.0.16" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cuts:cambio-cuts-common:1.0.16" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cuts:cambio-cuts-jboss-common:1.0.16" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cuts:cambio-cuts-jmx-common:1.0.16" level="project" />
+    <orderEntry type="library" name="Maven: commons-math:commons-math:1.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-discovery:commons-discovery:0.2" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cuts:cambio-cuts-jdbc-jtds:1.0.16" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cuts:cambio-cuts-jdbc-aspect:1.0.16" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjrt:1.6.11" level="project" />
+    <orderEntry type="library" name="Maven: org.jboss.logmanager:commons-logging-jboss-logmanager:1.0.3.Final" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.platform.sdk:sdk-ejb-common:1.2.3.1.7" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.platform.accesslog:access-log-server-impl:0.0.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.platform.cc:cc-ejb-common:2.4.4-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.platform.cc:cc-dto-api:2.4.4-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.platform.cc:cc-service-impl:2.4.4-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.platform.cc:cc-remoting-api:2.4.4-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.platform.cc:cc-service-spi:2.4.4-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.platform.cc:cc-service-api:2.4.4-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.platform.cc:cc-server-spi:2.4.4-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.platform.cc:cc-server-impl:2.4.4-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.legacy:HealthCareModel:ear:3.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.spider:HCMNotificationModuleServer:2.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.spider:HealthCareModelServer:language:3.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.legacy:FormManagement:ear:3.1.3-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.legacy:DocumentationModule:ear:2.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.legacy:CareDocumentation:ear:4.4.4-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.lowagie:itext:2.1.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.server.api:caredocumentation-server-service-api:1.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.server.api:spider-service-api:1.2.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.server.api:Block-server-service-api:1.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.server.api:clinicalcoding-server-service-api:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.server.api:apiframework-server-api:1.2.3-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.server.api:apiframework-server-impl:1.1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.legacy:CareAdministration:ear:3.4.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.legacy:TreatmentPlanHandlerModule:ear:2.2.3-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.spider:XMLBeansTreatmentPlanHandlerModule:2.2.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.xmlbeans:xmlbeans:2.4.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:ClinicalCodingModule:ear:2.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:CD_CCM_IntegrationModule:ear:0.2.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:BedManagement:ear:3.1.3-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:DRGModule:ear:3.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:ResourcePlanning:ear:3.7.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:RoS:ear:3.5.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:MembershipModule:ear:3.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:CraftModule:ear:2.6.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.server.api:CraftModule-server-service-api:2.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:NoteModule:all:2.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.spider:CareDocumentationServer:language:4.4.4-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.spider:PatientContextModuleServer:2.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.legacy:SharedLibrary:all:4.4.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.spider:SharedLibraryServer:language:4.4.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:CommonClinicalModelCommon:ear:0.15.4-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:CommonClinicalModel:ear:0.12.5-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.external.openEHR:openehr-aom:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.external.openEHR:openehr-ap:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.external.openEHR:openehr-rm-core:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.external.openEHR:openehr-rm-domain:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.external.openEHR:xml-binding:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.external.openEHR:adl-parser:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.external.openEHR:measure-serv:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.external.openEHR:mini-termserv:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.external.openEHR:adl-serializer:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.external.openEHR:rm-builder:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.external.openEHR:rm-skeleton:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.external.openEHR:rm-validator:1.0.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.external.openEHR:oet-parser:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-io:commons-io:2.4" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.external.openEHR:archetype-validator:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: javax.measure:jsr-275:0.9.4" level="project" />
+    <orderEntry type="library" name="Maven: jdom:jdom:1.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.external.openEHR:dadl-binding:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.external.openEHR:dadl-parser:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:TreatmentDiagnosisAccessPlugin:ear:0.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:NonStandardProceduresAccessPlugin:ear:0.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:InfectiousDiseaseAccessPlugin:ear:0.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:HypersensitivityAccessPlugin:ear:0.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.spider:CCMArchetypeServer:0.13.3-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:CommonClinicalModelPublisherPlugin:ear:0.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.server.api:ordermanagement-server-service-api:1.4.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.server.api:PAS-server-service-api:1.3.3-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.legacy:FrameworkSupportModule:ear:2.5.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.spider:FrameworkSupportModuleServer:language:2.5.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:SketchModule:ear:2.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.external.org.apache.commons:commons-imaging:0.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.patientidentifierstandardplugin:PatientIdentifierStandardPluginServer:1.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.spider:ConnectPublishIX3CommunicationProtocol:2.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.spider:ConnectPublishMiningMonitor:3.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:CCM_DOMIntegration:ear:0.7.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:DocumentationModuleCommon:ear:2.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.spider:ConnectPublishXML:3.3.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:MRT_Medication_IntegrationModule:ear:0.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:OrderManagement:ear:4.5.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.spider:OrderManagementServer:language:4.5.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:OM_Pathology:ear:2.4.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.legacy:TNGModule:ear:2.1.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.bouncycastle:bcmail-jdk15:1.45" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.bouncycastle:bcprov-jdk15:1.45" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.5.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.fasterxml.jackson.core:jackson-core:2.5.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.commons:cambio-commons:1.0.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.google.code.gson:gson:2.7" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.spider:OM_PathologyServer:language:2.4.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.server.api:opan-server-service-api:1.1.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.spider:CA_ProductClass_SE_OpAnServer:2.1.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.spider:OpAn_XMLServer:1.3.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.server.api:administrativecodes-server-service-api:1.1.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.spider:ClinicalCodingPlugin_SEServer:1.1.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.spider:ClinicalCodingPlugin_SEServer:language:1.1.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.platform.cc:cc-dto-impl:2.4.4-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.marketadaptations.se.cc:ma-se-cc-server-impl:2.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.legacy:BlockModule:ear:2.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.documentationintegration:documentationintegration-service-impl:2.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.documentationintegration:documentationintegration-service-spi:2.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.documentationintegration:documentationintegration-service-api:2.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.documentationintegration:documentationintegration-server-spi:2.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.documentationintegration:documentationintegration-server-api:2.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.documentationintegration:documentationintegration-common:2.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.documentationintegration:documentationintegration-dto-api:2.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.documentationintegration:documentationintegration-server-impl:2.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.legacy:DocumentationIntegrationModule:ear:2.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.documentation:dom-rm-mapper-common-api:2.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.documentation:dom-rm-mapper-common-impl:2.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.documentation:dom-rm-mapper-common-spi:2.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.documentation:dom-rm-mapper-common-common:2.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.documentation:dom-rm-mapper-server-server-facade-common:2.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.documentation:dom-rm-mapper-server-server-module:2.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.documentationintegration:documentationintegration-dto-impl:2.3.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.legacy:InfoClassModule:ear:3.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.external.openEHR:xml-serializer:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.referral:referral-ejb-common:2.4.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.referral:referral-dto-api:2.4.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.referral:referral-common-api:2.4.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.referral:referral-service-impl:2.4.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.referral:referral-service-spi:2.4.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.referral:referral-server-api:2.4.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.referral:referral-server-spi:2.4.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.referral:referral-service-api:2.4.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.referral:referral-server-impl:2.4.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.referral:referral-dto-impl:2.4.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.membershipintegration:membershipintegration-service-impl:2.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.membershipintegration:membershipintegration-service-spi:2.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.membershipintegration:membershipintegration-service-api:2.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.membershipintegration:membershipintegration-server-spi:2.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.membershipintegration:membershipintegration-server-api:2.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.membershipintegration:membershipintegration-common:2.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.membershipintegration:membershipintegration-dto-api:2.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.membershipintegration:membershipintegration-server-impl:2.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.membershipintegration:membershipintegration-dto-impl:2.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.medication:medication-ejb-common:0.142.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.medication:medication-dto-api:0.142.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.medication:medication-service-impl:0.142.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.medication:medication-service-spi:0.142.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.medication:medication-service-api:0.142.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.medication:medication-server-api:0.142.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.medication:medication-server-spi:0.142.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.medication:medication-common:0.142.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.medication:medication-server-impl:0.142.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.medication:medication-dto-impl:0.142.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.plugin.eprescription:eprescription-ejb-common:1.4.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.plugin.eprescription:eprescription-dto-api:1.4.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.plugin.eprescription:eprescription-service-impl:1.4.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.plugin.eprescription:eprescription-server-spi:1.4.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.plugin.eprescription:eprescription-server-api:1.4.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.plugin.eprescription:eprescription-service-spi:1.4.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.plugin.eprescription:eprescription-service-api:1.4.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.plugin.eprescription:eprescription-common:1.4.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.uuid:java-uuid-generator:3.1.4" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.plugin.eprescription:eprescription-server-impl:1.4.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.plugin.eprescription:eprescription-dto-impl:1.4.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.unstructuredalert:unstructuredalert-ejb-common:0.4.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.unstructuredalert:unstructuredalert-dto-api:0.4.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.unstructuredalert:unstructuredalert-service-impl:0.4.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.unstructuredalert:unstructuredalert-server-api:0.4.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.unstructuredalert:unstructuredalert-server-spi:0.4.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.unstructuredalert:unstructuredalert-common-api:0.4.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.unstructuredalert:unstructuredalert-service-api:0.4.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.unstructuredalert:unstructuredalert-server-impl:0.4.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.unstructuredalert:unstructuredalert-dto-impl:0.4.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.ix3.unstructuredalert:unstructuredalert-service-spi:0.4.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviews-ejb-common:0.11.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviews-dto-api:0.11.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviews-common-api:0.11.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviews-service-impl:0.11.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviews-service-spi:0.11.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviews-server-api:0.11.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviews-server-spi:0.11.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviews-service-api:0.11.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:external-server-api:0.11.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviews-server-impl:0.11.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviews-dto-impl:0.11.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.fluidbalance:fluidbalance-ejb-common:0.6.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.fluidbalance:fluidbalance-dto-api:0.6.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.fluidbalance:fluidbalance-service-impl:0.6.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.fluidbalance:fluidbalance-service-spi:0.6.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.fluidbalance:fluidbalance-service-api:0.6.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.fluidbalance:fluidbalance-server-spi:0.6.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.fluidbalance:fluidbalance-server-api:0.6.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.fluidbalance:fluidbalance-server-impl:0.6.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.fluidbalance:fluidbalance-dto-impl:0.6.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.fluidbalance:fluidbalance-common-api:0.6.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.fluidbalance:external-server-api:0.6.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviewplugins-ejb-common:0.11.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviewplugins-dto-api:0.11.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviewplugins-common-api:0.11.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviewplugins-service-impl:0.11.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviewplugins-service-spi:0.11.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviewplugins-service-api:0.11.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviewplugins-server-api:0.11.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviewplugins-server-spi:0.11.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.legacy:OM_APIModule:ear:1.5.3-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.legacy:BirthModule:ear:2.2.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.legacy:DigitalDictationModule:ear:2.3.2-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviewplugins-server-impl:0.11.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: se.cambio.cosmic.spider:OM_SecurityIntegrationCommonServer:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.overviews:overviewplugins-dto-impl:0.11.5-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-apodos-impl:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-apodos-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:eid-impl:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:eid-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-attention-signal-impl-ccm:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-attention-signal-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-framework-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:nova-hcm:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:nova-util:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-block-and-secrecy-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.spider:HypersensitivityAccessPluginServer:0.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.spider:InfectiousDiseaseAccessPluginServer:0.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.spider:NonStandardProceduresAccessPluginServer:0.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.spider:TreatmentDiagnosisAccessPluginServer:0.2.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-care-documentation-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-bed-management-dto-impl:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-bed-management-dto-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-bed-management-server-impl:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-bed-management-server-spi:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-bed-management-server-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-bed-management-service-impl:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-bed-management-service-spi:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-bed-management-service-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-block-and-secrecy-impl:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-care-documentation-impl:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-vital-signs-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:nova-common:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:java-hamcrest:2.0.0.0" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-medication-impl-ix3:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-medication-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-medication-conf-ix3:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-order-management-impl:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-order-management-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.jbundle.thin.base:org.jbundle.thin.base.util.base64:1.0.9" level="project" />
+    <orderEntry type="library" name="Maven: biz.source_code:base64coder:2010-12-19" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-theatre-management-impl:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-theatre-management-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-framework-impl:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.cosmic.server.api:patientlistmodule-server-service-api:1.1.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.legacy:PatientListModule:ear:3.1.1" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-vital-signs-impl-tng:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-vital-signs-impl-tng-ccm:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-vital-signs-conf-r81:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:nova-activities-dto-impl:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:nova-activities-dto-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:nova-activities-common:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:nova-activities-server-impl:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:nova-activities-server-spi:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:nova-activities-server-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.bedmanagement:bedmanagement-dto-api:2.0.23-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.bedmanagement:bedmanagement-common:2.0.23-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.bedmanagement:bedmanagement-service-spi:2.0.23-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.bedmanagement:bedmanagement-service-api:2.0.23-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.bedmanagement:bedmanagement-server-api:2.0.23-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:nova-activities-service-impl:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:nova-activities-service-spi:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:nova-activities-service-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:nova-messaging-base-impl:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:nova-messaging-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jms:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-messaging:4.3.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-pas-impl:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-pas-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-referral-impl:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:adapter-referral-api:21.815.1-dev-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: se.cambio.nova:nova-market-adaptations-api:21.815.1-dev-SNAPSHOT" level="project" />
   </component>
 </module>
