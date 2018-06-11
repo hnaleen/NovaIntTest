@@ -1,164 +1,0 @@
-
-D:\Source\Other\NovaIntTest>set MAVEN_OPTS=-XX:MaxPermSize=1024m 
-[INFO] Scanning for projects...
-[WARNING] The POM for com.hasa:webtools-maven-plugin:jar:1.0.29 is missing, no dependency information available
-[WARNING] Failed to retrieve plugin descriptor for com.hasa:webtools-maven-plugin:1.0.29: Plugin com.hasa:webtools-maven-plugin:1.0.29 or one of its dependencies could not be resolved: Failed to read artifact descriptor for com.hasa:webtools-maven-plugin:jar:1.0.29
-[INFO]                                                                         
-[INFO] ------------------------------------------------------------------------
-[INFO] Building NovaIntTest 21.815.1-dev-SNAPSHOT
-[INFO] ------------------------------------------------------------------------
-[WARNING] The POM for com.hasa:webtools-maven-plugin:jar:1.0.29 is missing, no dependency information available
-[WARNING] Failed to retrieve plugin descriptor for com.hasa:webtools-maven-plugin:1.0.29: Plugin com.hasa:webtools-maven-plugin:1.0.29 or one of its dependencies could not be resolved: Failed to read artifact descriptor for com.hasa:webtools-maven-plugin:jar:1.0.29
-[INFO] 
-[INFO] --- maven-dependency-plugin:2.4:tree (default-cli) @ NovaIntTest ---
-Downloading: http://repo.cambio.lk/content/groups/public/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.pom
-782 B   3 KB    3 KB   5 KB          Downloaded: http://repo.cambio.lk/content/groups/public/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.pom (5 KB at 2.8 KB/sec)
-Downloading: http://repo.cambio.lk/content/groups/public/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom
-854 B   2 KB    3 KB   6 KB   6 KB          Downloaded: http://repo.cambio.lk/content/groups/public/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom (6 KB at 5.8 KB/sec)
-Downloading: http://repo.cambio.lk/content/groups/public/org/codehaus/plexus/plexus-archiver/2.0/plexus-archiver-2.0.pom
-2 KB   3 KB          Downloaded: http://repo.cambio.lk/content/groups/public/org/codehaus/plexus/plexus-archiver/2.0/plexus-archiver-2.0.pom (3 KB at 2.3 KB/sec)
-Downloading: http://repo.cambio.lk/content/groups/public/org/codehaus/plexus/plexus-io/2.0/plexus-io-2.0.pom
-2 KB   2 KB          Downloaded: http://repo.cambio.lk/content/groups/public/org/codehaus/plexus/plexus-io/2.0/plexus-io-2.0.pom (2 KB at 1.1 KB/sec)
-Downloading: http://repo.cambio.lk/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.2/maven-dependency-analyzer-1.2.pom
-796 B   3 KB    5 KB   5 KB          Downloaded: http://repo.cambio.lk/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.2/maven-dependency-analyzer-1.2.pom (5 KB at 2.9 KB/sec)
-Downloading: http://repo.cambio.lk/content/groups/public/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.pom
-755 B   3 KB    3 KB   5 KB   5 KB          Downloaded: http://repo.cambio.lk/content/groups/public/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.pom (5 KB at 3.9 KB/sec)
-Downloading: http://repo.cambio.lk/content/groups/public/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.jar
-Downloading: http://repo.cambio.lk/content/groups/public/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.jar
-Downloading: http://repo.cambio.lk/content/groups/public/org/codehaus/plexus/plexus-archiver/2.0/plexus-archiver-2.0.jar
-Downloading: http://repo.cambio.lk/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.2/maven-dependency-analyzer-1.2.jar
-Downloading: http://repo.cambio.lk/content/groups/public/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.jar
-3/21 KB   3/21 KB   2/176 KB   7/21 KB   2/176 KB   11/21 KB   2/176 KB   14/21 KB   2/176 KB   14/21 KB   4/29 KB   2/176 KB   14/21 KB   4/29 KB   6/176 KB   14/21 KB   4/29 KB   10/176 KB   14/21 KB   4/29 KB   14/176 KB   14/21 KB   4/29 KB   14/176 KB   14/21 KB   4/29 KB   4/41 KB   14/176 KB   14/21 KB   4/29 KB   4/41 KB   14/176 KB   4/28 KB   14/21 KB   4/29 KB   8/41 KB   14/176 KB   4/28 KB   14/21 KB   4/29 KB   12/41 KB   14/176 KB   4/28 KB   14/21 KB   4/29 KB   14/41 KB   14/176 KB   4/28 KB   14/21 KB   8/29 KB   14/41 KB   14/176 KB   4/28 KB   14/21 KB   12/29 KB   14/41 KB   14/176 KB   4/28 KB   14/21 KB   14/29 KB   14/41 KB   14/176 KB   4/28 KB   14/21 KB   14/29 KB   14/41 KB   14/176 KB   8/28 KB   14/21 KB   14/29 KB   14/41 KB   14/176 KB   12/28 KB   14/21 KB   14/29 KB   14/41 KB   14/176 KB   14/28 KB   18/21 KB   14/29 KB   14/41 KB   14/176 KB   14/28 KB   21/21 KB   14/29 KB   14/41 KB   14/176 KB   14/28 KB   21/21 KB   14/29 KB   14/41 KB   16/176 KB   16/28 KB   21/21 KB   14/29 KB   14/41 KB   16/176 KB   16/28 KB   21/21 KB   14/29 KB   14/41 KB   19/176 KB   16/28 KB   21/21 KB   14/29 KB   14/41 KB   19/176 KB   17/28 KB   21/21 KB   16/29 KB   14/41 KB   19/176 KB   17/28 KB   21/21 KB   16/29 KB   14/41 KB   19/176 KB   20/28 KB   21/21 KB   16/29 KB   14/41 KB   19/176 KB   21/28 KB   21/21 KB   17/29 KB   14/41 KB   19/176 KB   21/28 KB   21/21 KB   20/29 KB   14/41 KB   19/176 KB   21/28 KB   21/21 KB   20/29 KB   14/41 KB   21/176 KB   21/28 KB   21/21 KB   23/29 KB   14/41 KB   21/176 KB   25/28 KB   21/21 KB   23/29 KB   14/41 KB   21/176 KB   25/28 KB   21/21 KB   23/29 KB   14/41 KB   25/176 KB   25/28 KB   21/21 KB   23/29 KB   14/41 KB   25/176 KB   28/28 KB   21/21 KB   23/29 KB   14/41 KB   27/176 KB   28/28 KB   21/21 KB   27/29 KB   14/41 KB   27/176 KB   28/28 KB   21/21 KB   29/29 KB   14/41 KB   27/176 KB   28/28 KB   21/21 KB   29/29 KB   17/41 KB   27/176 KB   28/28 KB   21/21 KB   29/29 KB   20/41 KB   27/176 KB   28/28 KB   21/21 KB   29/29 KB   23/41 KB   27/176 KB   28/28 KB   21/21 KB   29/29 KB   26/41 KB   27/176 KB   28/28 KB   21/21 KB   29/29 KB   26/41 KB   31/176 KB   28/28 KB   21/21 KB   29/29 KB   26/41 KB   35/176 KB   28/28 KB   21/21 KB   29/29 KB   30/41 KB   35/176 KB   28/28 KB   21/21 KB   29/29 KB   30/41 KB   39/176 KB   28/28 KB   21/21 KB   29/29 KB   31/41 KB   39/176 KB   28/28 KB   21/21 KB   29/29 KB   31/41 KB   43/176 KB   28/28 KB   21/21 KB   29/29 KB   35/41 KB   43/176 KB   28/28 KB   21/21 KB   29/29 KB   39/41 KB   43/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   43/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   44/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   48/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   52/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   56/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   59/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   60/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   61/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   64/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   66/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   67/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   70/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   71/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   74/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   78/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   82/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   86/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   90/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   94/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   98/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   100/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   103/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   107/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   111/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   113/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   114/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   118/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   122/176 KB   28/28 KB   21/21 KB   29/29 KB   41/41 KB   123/176 KB   28/28 KB                                                            Downloaded: http://repo.cambio.lk/content/groups/public/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.jar (21 KB at 9.1 KB/sec)
-29/29 KB   41/41 KB   126/176 KB   28/28 KB              29/29 KB   41/41 KB   130/176 KB   28/28 KB   29/29 KB   41/41 KB   134/176 KB   28/28 KB   29/29 KB   41/41 KB   137/176 KB   28/28 KB                                                 Downloaded: http://repo.cambio.lk/content/groups/public/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.jar (29 KB at 12.7 KB/sec)
-41/41 KB   138/176 KB   28/28 KB              41/41 KB   140/176 KB   28/28 KB                                      Downloaded: http://repo.cambio.lk/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.2/maven-dependency-analyzer-1.2.jar (28 KB at 12.1 KB/sec)
-                                   Downloaded: http://repo.cambio.lk/content/groups/public/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.jar (41 KB at 17.7 KB/sec)
-143/176 KB                         147/176 KB   151/176 KB   155/176 KB   159/176 KB   163/176 KB   167/176 KB   171/176 KB   171/176 KB   173/176 KB   174/176 KB   176/176 KB                Downloaded: http://repo.cambio.lk/content/groups/public/org/codehaus/plexus/plexus-archiver/2.0/plexus-archiver-2.0.jar (176 KB at 53.3 KB/sec)
-[INFO] com.hasa:NovaIntTest:jar:21.815.1-dev-SNAPSHOT
-[INFO] +- se.cambio.test.itf:itf-core:jar:2.0.1:test
-[INFO] |  \- com.thoughtworks.xstream:xstream:jar:1.4.7:test
-[INFO] |     +- xmlpull:xmlpull:jar:1.1.3.1:test
-[INFO] |     \- xpp3:xpp3_min:jar:1.1.4c:test
-[INFO] \- se.cambio.platform.cc:cc-test:jar:2.4.4-dev-SNAPSHOT:test
-[INFO]    +- se.cambio.platform.sdk:sdk-test:jar:1.2.3.1.7:test
-[INFO]    |  +- org.hibernate:hibernate-testing:jar:5.0.12.Final:test
-[INFO]    |  |  +- org.jboss.logging:jboss-logging:jar:3.3.0.Final:test
-[INFO]    |  |  +- org.hibernate:hibernate-core:jar:5.0.16.Final-redhat-1:test (version managed from 5.0.12.Final)
-[INFO]    |  |  |  +- org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final:test
-[INFO]    |  |  |  +- antlr:antlr:jar:2.7.7:test
-[INFO]    |  |  |  +- org.jboss:jandex:jar:2.0.0.Final:test
-[INFO]    |  |  |  +- dom4j:dom4j:jar:1.6.1:test
-[INFO]    |  |  |  |  \- xml-apis:xml-apis:jar:1.0.b2:test
-[INFO]    |  |  |  \- org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final:test
-[INFO]    |  |  +- org.apache.geronimo.specs:geronimo-jta_1.1_spec:jar:1.1.1:test
-[INFO]    |  |  +- org.jboss.byteman:byteman:jar:2.1.2:test
-[INFO]    |  |  +- org.jboss.byteman:byteman-install:jar:2.1.2:test
-[INFO]    |  |  |  \- com.sun:tools:jar:1.6:system
-[INFO]    |  |  +- org.jboss.byteman:byteman-bmunit:jar:2.1.2:test
-[INFO]    |  |  |  \- org.jboss.byteman:byteman-submit:jar:2.1.2:test
-[INFO]    |  |  +- com.experlog:xapool:jar:1.5.0:test
-[INFO]    |  |  +- log4j:log4j:jar:1.2.17:test
-[INFO]    |  |  \- org.jboss.jbossts:jbossjta:jar:4.16.4.Final:test
-[INFO]    |  +- org.powermock:powermock-api-mockito:jar:1.5.4:test
-[INFO]    |  +- org.powermock:powermock-module-testng:jar:1.5.4:test
-[INFO]    |  |  \- org.powermock:powermock-module-testng-common:jar:1.5.4:test
-[INFO]    |  +- org.mockito:mockito-all:jar:1.9.5:test
-[INFO]    |  +- org.springframework:spring-test:jar:4.3.3.RELEASE:test
-[INFO]    |  |  \- org.springframework:spring-core:jar:4.3.3.RELEASE:test
-[INFO]    |  |     \- commons-logging:commons-logging:jar:1.1.1:test (version managed from 1.2)
-[INFO]    |  +- org.testng:testng:jar:6.9.10:test
-[INFO]    |  |  +- com.beust:jcommander:jar:1.48:test
-[INFO]    |  |  \- org.beanshell:bsh:jar:2.0b4:test
-[INFO]    |  +- net.sourceforge.jtds:jtds:jar:1.2.7:test
-[INFO]    |  +- commons-dbcp:commons-dbcp:jar:1.2.2:test
-[INFO]    |  |  \- commons-pool:commons-pool:jar:1.5.4:test (version managed from 1.3)
-[INFO]    |  +- org.slf4j:jcl-over-slf4j:jar:1.7.23:test
-[INFO]    |  +- org.slf4j:log4j-over-slf4j:jar:1.7.23:test
-[INFO]    |  +- org.slf4j:slf4j-api:jar:1.7.23:test
-[INFO]    |  +- org.slf4j:slf4j-ext:jar:1.7.23:test
-[INFO]    |  |  \- ch.qos.cal10n:cal10n-api:jar:0.8.1:test
-[INFO]    |  \- ch.qos.logback:logback-classic:jar:1.1.6:test
-[INFO]    |     \- ch.qos.logback:logback-core:jar:1.1.6:test
-[INFO]    +- se.cambio.platform.cc:cc-spiderling:jar:2.4.4-dev-SNAPSHOT:test
-[INFO]    |  +- se.cambio.spider:spider-archiving-common-jdbc:jar:3.0.11:test
-[INFO]    |  |  \- se.cambio.spider:spider-archiving-api-util:jar:3.0.11:test
-[INFO]    |  +- se.cambio.spider:spider-archiving-common-source-api:jar:3.0.11:test
-[INFO]    |  +- se.cambio.spider:spider-archiving-common-source-basic:jar:3.0.11:test
-[INFO]    |  |  \- se.cambio.spider:spider-archiving-api-common-metadata:jar:3.0.11:test
-[INFO]    |  +- se.cambio.spider:spider-archiving-runtime-criteria-basic:jar:3.0.11:test
-[INFO]    |  |  +- se.cambio.spider:spider-archiving-api-runtime-criteria-api:jar:3.0.11:test
-[INFO]    |  |  \- se.cambio.spider:spider-archiving-api-runtime-criteria-util:jar:3.0.11:test
-[INFO]    |  +- se.cambio.spider:spider-archiving-runtime-criteria-filter:jar:3.0.11:test
-[INFO]    |  +- se.cambio.spider:spider-archiving-criteria-profiler:jar:3.0.11:test
-[INFO]    |  +- se.cambio.spider:spider-archiving-runtime-criteria-transport-common:jar:3.0.11:test
-[INFO]    |  |  \- se.cambio.spider.jboss:cambio-jboss-util:jar:1.0.2:test
-[INFO]    |  +- se.cambio.spider:spider-archiving-runtime-criteria-transport-server:jar:3.0.11:test
-[INFO]    |  +- se.cambio.codegen.proxy:cambio-codegen-proxy-iiop:jar:2.0.1:test
-[INFO]    |  |  \- regexp:regexp:jar:1.3:test
-[INFO]    |  +- se.cambio.codegen.proxy:cambio-codegen-proxy:jar:1.0.3:test
-[INFO]    |  +- bcel:bcel:jar:5.1:test
-[INFO]    |  +- concurrent:concurrent:jar:1.3.4:test
-[INFO]    |  +- org.springframework:spring-context:jar:4.3.3.RELEASE:test
-[INFO]    |  |  +- org.springframework:spring-aop:jar:4.3.3.RELEASE:test
-[INFO]    |  |  +- org.springframework:spring-beans:jar:4.3.3.RELEASE:test
-[INFO]    |  |  \- org.springframework:spring-expression:jar:4.3.3.RELEASE:test
-[INFO]    |  +- org.springframework:spring-tx:jar:4.3.3.RELEASE:test
-[INFO]    |  +- se.cambio.spider:spider-core:ejb:3.0.11:test
-[INFO]    |  \- se.cambio.spider:spider-jboss-service:jar:3.0.11:test
-[INFO]    +- se.cambio.platform.cc:cc-server-api:jar:2.4.4-dev-SNAPSHOT:test
-[INFO]    |  +- se.cambio.platform.cc:cc-common-api:jar:2.4.4-dev-SNAPSHOT:test
-[INFO]    |  |  +- se.cambio.platform.sdk:sdk-common:jar:1.2.3.1.7:test
-[INFO]    |  |  |  +- aopalliance:aopalliance:jar:1.0:test
-[INFO]    |  |  |  +- joda-time:joda-time:jar:2.9.7:test
-[INFO]    |  |  |  +- org.springframework:spring-orm:jar:4.3.3.RELEASE:test
-[INFO]    |  |  |  +- cglib:cglib:jar:2.2:test
-[INFO]    |  |  |  |  \- asm:asm:jar:3.1:test
-[INFO]    |  |  |  +- com.google.inject:guice:jar:4.0:test
-[INFO]    |  |  |  |  \- javax.inject:javax.inject:jar:1:test
-[INFO]    |  |  |  +- com.google.inject.extensions:guice-multibindings:jar:4.0:test
-[INFO]    |  |  |  +- com.google.inject.extensions:guice-assistedinject:jar:4.0:test
-[INFO]    |  |  |  \- com.google.inject.extensions:guice-grapher:jar:4.0:test
-[INFO]    |  |  \- se.cambio.platform.accesslog:access-log-common-api:jar:0.0.5-SNAPSHOT:test (version managed from 0.0.5-dev-SNAPSHOT)
-[INFO]    |  \- se.cambio.platform.sdk:sdk-server:jar:1.2.3.1.7:test
-[INFO]    |     +- org.springframework:spring-jdbc:jar:4.3.3.RELEASE:test
-[INFO]    |     +- org.hibernate:hibernate-envers:jar:5.0.16.Final-redhat-1:test
-[INFO]    |     +- org.hibernate:hibernate-entitymanager:jar:5.0.16.Final-redhat-1:test
-[INFO]    |     +- org.jadira.usertype:usertype.core:jar:5.0.0.GA:test
-[INFO]    |     |  \- org.jadira.usertype:usertype.spi:jar:5.0.0.GA:test
-[INFO]    |     \- org.hibernate:hibernate-infinispan:jar:5.0.16.Final-redhat-1:test
-[INFO]    |        \- org.infinispan:infinispan-core:jar:5.2.1.Final:test (version managed from 7.2.5.Final)
-[INFO]    |           +- org.jgroups:jgroups:jar:3.2.7.Final:test
-[INFO]    |           +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final:test
-[INFO]    |           +- org.jboss.marshalling:jboss-marshalling-river:jar:1.3.15.GA:test
-[INFO]    |           +- org.jboss.marshalling:jboss-marshalling:jar:1.3.15.GA:test
-[INFO]    |           \- org.jboss:staxmapper:jar:1.1.0.Final:test
-[INFO]    +- com.h2database:h2:jar:1.3.173:test
-[INFO]    +- se.cambio.test:test-dependency:pom:0.0.10:test
-[INFO]    |  +- org.easytesting:fest-assert:jar:1.4:test
-[INFO]    |  +- org.easytesting:fest-util:jar:1.1.6:test
-[INFO]    |  +- org.easytesting:fest-reflect:jar:1.4:test
-[INFO]    |  +- junit:junit:jar:3.8.1:test
-[INFO]    |  +- se.cambio.external.deprecated:UnitTest:jar:1.0.2:test
-[INFO]    |  +- org.powermock:powermock-api-support:jar:1.5.5:test
-[INFO]    |  +- org.powermock:powermock-reflect:jar:1.5.5:test
-[INFO]    |  |  \- org.objenesis:objenesis:jar:2.1:test
-[INFO]    |  +- org.powermock:powermock-core:jar:1.5.5:test
-[INFO]    |  |  \- org.javassist:javassist:jar:3.20.0-GA:test
-[INFO]    |  +- se.cambio.external.deprecated:easymock:jar:1.2_Java1.5:test
-[INFO]    |  +- org.assertj:assertj-core:jar:2.0.0:test (version managed from 2.4.1)
-[INFO]    |  |  \- com.github.marschall:memoryfilesystem:jar:0.6.4:test
-[INFO]    |  +- org.assertj:assertj-guava:jar:2.0.0:test
-[INFO]    |  |  \- com.google.guava:guava:jar:20.0:test
-[INFO]    |  +- org.assertj:assertj-joda-time:jar:1.1.0:test
-[INFO]    |  +- org.assertj:assertj-db:jar:1.1.1:test
-[INFO]    |  \- org.assertj:assertj-swing-testng:jar:2.2.0:test
-[INFO]    |     \- org.assertj:assertj-swing:jar:2.2.0:test
-[INFO]    +- javax.el:javax.el-api:jar:2.2.4:test
-[INFO]    +- org.jboss.spec.javax.ejb:jboss-ejb-api_3.2_spec:jar:1.0.0.Final:test
-[INFO]    \- org.jboss.spec.javax.jms:jboss-jms-api_2.0_spec:jar:1.0.0.Final:test
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD SUCCESS
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time: 19.063s
-[INFO] Finished at: Fri May 11 10:36:04 IST 2018
-[INFO] Final Memory: 34M/694M
-[INFO] ------------------------------------------------------------------------

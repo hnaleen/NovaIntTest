@@ -1,5 +1,7 @@
 package impl;
 
+import impl.mockedJNDI.JavaContextFactory;
+import impl.newJndi.DatabaseContextFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.testng.Assert;
@@ -14,17 +16,22 @@ import se.cambio.platform.cc.hcm.contact.dto.ContactEntityDTOIdFactory;
 import se.cambio.test.itf.core.TestBase;
 import se.cambio.test.itf.core.annotations.TestConfiguration;
 
+import javax.naming.NamingException;
+import javax.naming.spi.NamingManager;
 import java.util.List;
 
-@ContextConfiguration("/fromjboss/jboss_spring.xml")
+//@ContextConfiguration(locations = {
+//        "classpath*:META-INF/se.cambio.platform.sdk.ejb.server/ejb-context.xml",
+//        "classpath*:META-INF/se.cambio.platform.sdk/spring-context-market-adaptations.xml"})
+
+@ContextConfiguration("/se/cambio/nova/model/marker/service/impl/TaskMarkerService_working.xml")
 @TestConfiguration(login = "Himali", userRole = "Doctor*", workingUnit = "The Medicine department*")
 public class TaskMarkerServiceIT_with_cc_testIT extends TestBase
 {
     static {
-        System.setProperty("itf.db.host", "cllk-hasanthaal");
-        System.setProperty("itf.db.port", "15788");
-        System.setProperty("itf.db.name", "TeamCI_Stella_R82");
-//        System.setProperty("itf.db.name", "LineCI_SUP_HF_R81_11NEW");
+//        System.setProperty("itf.db.host", "cllk-hasanthaal");
+//        System.setProperty("itf.db.port", "15788");
+//        System.setProperty("itf.db.name", "TeamCI_Stella_R82");
     }
 
     @Autowired
@@ -62,11 +69,5 @@ public class TaskMarkerServiceIT_with_cc_testIT extends TestBase
         System.out.println("----------");
         TaskMarker taskMarker = taskMarkerDAO.load(taskMarkerIdFactory.createId("1006"));
         System.out.println("Name : " + taskMarker.getName() + " - Comment : " + taskMarker.getComment());
-
-
-//        taskMarkerService.addComment(taskMarkerEntityDTOIdFactory.createId("2502"), "Nice :P  !!!");
-//        System.out.println("----------");
-//        TaskMarker taskMarker = taskMarkerDAO.load(taskMarkerIdFactory.createId("2502"));
-//        System.out.println("Name : " + taskMarker.getName() + " - Comment : " + taskMarker.getComment());
     }
 }

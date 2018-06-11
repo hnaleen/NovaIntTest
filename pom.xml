@@ -13,6 +13,12 @@
         <artifactId>nova-activities-reactor</artifactId>
         <version>21.815.1-dev-SNAPSHOT</version>
     </parent>
+    <properties>
+        <db.host>cllk-hasanthaal</db.host>
+        <db.port>15788</db.port>
+        <db.name>TeamCI_Stella_R82</db.name>
+        <db.image>nova/novadb-r82</db.image> <!-- Docker MSSQL Image name -->
+    </properties>
 
     <build>
         <resources>
@@ -26,6 +32,13 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-failsafe-plugin</artifactId>
                 <version>2.21.0</version>
+                <configuration>
+                    <systemPropertyVariables>
+                        <itf.db.host>${db.host}</itf.db.host>
+                        <itf.db.port>${db.port}</itf.db.port>
+                        <itf.db.name>${db.name}</itf.db.name>
+                    </systemPropertyVariables>
+                </configuration>
                 <executions>
                     <execution>
                         <goals>
@@ -35,46 +48,28 @@
                     </execution>
                 </executions>
             </plugin>
-
+            <!-- Custom plugin used to start and stop MS SQL docker container -->
             <plugin>
-                <groupId>io.fabric8</groupId>
-                <artifactId>docker-maven-plugin</artifactId>
-                <version>0.26.0</version>
+                <groupId>com.hasa</groupId>
+                <artifactId>DockerizedSqlServerITest-maven-plugin</artifactId>
+                <version>1.0-SNAPSHOT</version>
                 <configuration>
-                    <apiVersion>1.24</apiVersion>
-                    <showLogs>nova/novadb-r82</showLogs>
-                    <images>
-                        <image>
-                            <name>nova/novadb-r82</name>
-                            <alias>novaIntDB</alias>
-                            <run>
-                                <namingStrategy>alias</namingStrategy>
-                                <memory>3221225472</memory> //Atleaset 3gb of memory is needed for cambio DB
-                                <ports>
-                                    <port>15788:1433</port>
-                                </ports>
-                                <wait>
-                                    <time>240000</time>
-                                    <!--<log>VERBOSE: Started SQL Server.</log>-->
-                                </wait>
-                            </run>
-                        </image>
-                    </images>
+                    <imageName>${db.image}</imageName>
+                    <hostPort>${db.port}</hostPort>
                 </configuration>
-
                 <executions>
                     <execution>
                         <id>start</id>
                         <phase>pre-integration-test</phase>
                         <goals>
-                            <goal>start</goal>
+                            <goal>startDB</goal>
                         </goals>
                     </execution>
                     <execution>
                         <id>stop</id>
                         <phase>post-integration-test</phase>
                         <goals>
-                            <goal>stop</goal>
+                            <goal>stopDB</goal>
                         </goals>
                     </execution>
                 </executions>
@@ -83,7 +78,6 @@
     </build>
 
     <dependencies>
-        <!-- integration testing dependencies -->
         <dependency>
             <groupId>se.cambio.test.itf</groupId>
             <artifactId>itf-core</artifactId>
@@ -102,30 +96,12 @@
 			 <type>jme</type>
         </dependency>
 
-
-        <!--<dependency>-->
-            <!--<groupId>se.cambio.platform.cc</groupId>-->
-            <!--<artifactId>cc-server-impl</artifactId>-->
-            <!--<scope>test</scope>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>se.cambio.platform.cc</groupId>-->
-            <!--<artifactId>cc-service-impl</artifactId>-->
-            <!--<scope>test</scope>-->
-        <!--</dependency>-->
-        <!-- End -->
-
-        <!-- CC -->
-        <!--<dependency>-->
-            <!--<groupId>se.cambio.platform.cc</groupId>-->
-            <!--<artifactId>cc-service-spi</artifactId>-->
-        <!--</dependency>-->
-
-        <!--<dependency>-->
-            <!--<groupId>se.cambio.platform.cc</groupId>-->
-            <!--<artifactId>cc-dto-impl</artifactId>-->
-        <!--</dependency>-->
-        <!-- End -->
+        <dependency>
+            <groupId>se.cambio.nova</groupId>
+            <artifactId>nova-jboss-dist-r81</artifactId>
+            <version>${project.version}</version>
+            <type>pom</type>
+        </dependency>
     </dependencies>
 
 </project>
